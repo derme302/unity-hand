@@ -82,26 +82,6 @@ public class ControllerHand : MonoBehaviour {
             cylinderRef.LookAt(target);                   // aim bond at positiion
         }
 
-
-        /*
-        // Create a bond between 2 points
-        // cylinderRef is a gameObject mesh cylinder with the cylinder pivot at the base pointing along the +Z.
-        Transform cylinderRef;
-        Transform atarget;
-        Transform spawn;
- 
-        // Find the distance between 2 points
-        Vector2 bondDistance;
-        cylinderRef.localScale.z = bondDistance.Distance(spawn.position,aTarget.position)/2;
-   
-        cylinderRef.position = spawn.position;        // place bond here
-        cylinderRef.LookAt(aTarget);            // aim bond at atom
-         */
-
-
-        
-
-
         /* Update joint positions
          * This is where you can update the objects positions    
          * Due to the setup, the positions will be relative to their parents
